@@ -11,11 +11,18 @@
 - [**Logistics Optimization**](./logistics-optimization): 물류 데이터를 기반으로 효율성을 극대화하기 위한 통계 모델링.
 - [**Artwork Object Detection**](./artwork-object-detection): 아동 그림 데이터를 활용한 객체 탐지 모델 개발.
 - [**Special Education Analysis**](./special-education-analysis): 특수교육 데이터를 분석하여 정책 제안.
-
+- [**Real Estate Analysis**](./real-estate-analysis): 부동산 시장 데이터를 분석하여 가격 예측 모델 개발.
+- [**Natural Language Processing**](./natural language processing): 문서 데이터를 처리하고 유사도 분석 및 키워드 추출을 수행.
 ---
 
 ## Technology Stack
-- Python, YOLOv5, SQL, Tableau, Power BI, Pandas
+- **Programming Languages**: Python
+- **Data Processing & Analysis**: Pandas, NumPy
+- **Machine Learning**: Scikit-learn, TensorFlow, PyTorch
+- **Visualization**: Matplotlib, Seaborn, Plotly
+- **Database**: PostgreSQL, MySQL, SQLite
+- **Deployment & Tools**: Docker, Git, Streamlit, FastAPI
+- **NLP (Natural Language Processing)**: NLTK, SpaCy, Gensim, KoNLPy
 
 ---
 

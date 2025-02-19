@@ -1,0 +1,5 @@
+names:
+  0: rectangle
+  1: circle
+train: C:/Users/user/Desktop/data-analysis-projects/artwork-object-detection\processed_data
+val: C:/Users/user/Desktop/data-analysis-projects/artwork-object-detection\tests

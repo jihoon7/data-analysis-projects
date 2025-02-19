@@ -1,0 +1,6 @@
+names:
+- rectangle
+- circle
+nc: 2
+train: C:/Users/user/Desktop/data-analysis-projects/pcb-defect-detection\processed_data\train
+val: C:/Users/user/Desktop/data-analysis-projects/pcb-defect-detection\processed_data\val

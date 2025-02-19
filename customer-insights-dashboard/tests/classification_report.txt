@@ -1,0 +1,11 @@
+              precision    recall  f1-score   support
+
+       black       0.33      1.00      0.50         2
+        gold       0.00      0.00      0.00         2
+      silver       0.00      0.00      0.00         2
+
+    accuracy                           0.33         6
+   macro avg       0.11      0.33      0.17         6
+weighted avg       0.11      0.33      0.17         6
+
+Accuracy: 0.33

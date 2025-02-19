@@ -1,0 +1,12 @@
+```txt
+numpy
+pandas
+matplotlib
+seaborn
+networkx
+gensim
+konlpy
+nltk
+scikit-learn
+jupyter
+```

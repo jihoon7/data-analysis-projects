@@ -1,0 +1,19 @@
+```yaml
+data:
+  input_dir: "natural language processing/data/"
+  output_dir: "natural language processing/results/"
+
+nlp:
+  tokenizer: "Okt"
+  vectorizer: "TF-IDF"
+  similarity_metric: "cosine"
+
+model:
+  word_embedding: "Word2Vec"
+  embedding_dim: 100
+  min_count: 5
+  window: 5
+```
+
+## 주의사항
+- `data/` 폴더는 민감한 데이터를 포함하므로 Git에 추가되지 않도록 `.gitignore` 설정이 적용되었습니다.

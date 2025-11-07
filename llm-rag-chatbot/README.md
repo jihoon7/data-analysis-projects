@@ -1,3 +1,23 @@
+# 💼 LLM 기반 사내 휴가·복지 안내 챗봇 (RAG 구조 + Streamlit)
+
+![CI Status](https://img.shields.io/github/actions/workflow/status/jihoon7/data-analysis-projects/ci.yml?branch=main)
+[![GitHub Stars](https://img.shields.io/github/stars/jihoon7/data-analysis-projects?style=social)](https://github.com/jihoon7/data-analysis-projects)
+
+> 사내 규정 문서를 기반으로 의미 기반 검색과 GPT 확장 구조를 결합한 RAG 챗봇 프로젝트입니다.  
+> Streamlit UI와 ChromaDB를 활용해, 실제 사내 문서 QA 시스템 형태로 구현했습니다.  
+> GitHub Actions를 통해 CI 자동화를 구축하여 코드 품질을 지속적으로 관리할 수 있습니다.
+
+---
+
+## 🚀 주요 기능
+- 문서 기반 의미 검색 (RAG)
+- Streamlit 인터페이스
+- ChromaDB 로컬 벡터 저장
+- GPT 연동 확장 가능
+- CI/CD 자동화 (GitHub Actions)
+
+---
+
 # LLM 기반 사내 휴가·복지 안내 챗봇 (RAG 구조)
 
 ### 프로젝트 개요

@@ -1,0 +1,16 @@
+## `config.yaml`
+
+파일 위치: `llm-rag-chatbot/config.yaml`
+
+```yaml
+embedding:
+  model: jhgan/ko-sroberta-multitask
+  chunk_size: 200
+  max_distance: 0.95
+
+database:
+  path: ./vector_store
+
+app:
+  title: "사내 휴가/복지 안내 챗봇"
+  top_k: 5

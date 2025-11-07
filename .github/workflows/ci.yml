@@ -21,25 +21,29 @@ jobs:
         with:
           python-version: "3.10"
 
-      # 3. 패키지 설치
+      # 3. 패키지 설치 (경로 수정됨!)
       - name: Install dependencies
+        working-directory: ./llm-rag-chatbot
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
       # 4. 기본 라이브러리 정상 동작 확인
-      - name: Verify project imports
+      - name: Verify imports
+        working-directory: ./llm-rag-chatbot
         run: |
           python -c "import streamlit, chromadb, sentence_transformers"
 
-      # 5. 프로젝트 모듈 임포트 테스트
-      - name: Check module imports
+      # 5. 모듈 테스트
+      - name: Test module imports
+        working-directory: ./llm-rag-chatbot
         run: |
-          python -c "from modules.document_loader import load_documents; print('Document loader OK')"
-          python -c "from modules.vectorizer import embed_chunks; print('Vectorizer OK')"
-          python -c "from modules.query_engine import search_similar_chunks; print('Query engine OK')"
+          python -c "from modules.document_loader import load_documents; print('✅ document_loader OK')"
+          python -c "from modules.vectorizer import embed_chunks; print('✅ vectorizer OK')"
+          python -c "from modules.query_engine import search_similar_chunks; print('✅ query_engine OK')"
 
-      # 6. config.yaml 파일 존재 확인
-      - name: Check config file exists
+      # 6. config.yaml 존재 확인
+      - name: Check config
+        working-directory: ./llm-rag-chatbot
         run: |
-          test -f config.yaml && echo "config.yaml found" || (echo "config.yaml missing" && exit 1)
+          test -f config.yaml && echo '✅ config.yaml found' || (echo '❌ config.yaml missing' && exit 1)

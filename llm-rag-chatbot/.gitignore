@@ -1,0 +1,9 @@
+# 환경 변수 파일
+.env
+
+# 캐시 및 임시 파일
+__pycache__/
+.ipynb_checkpoints/
+
+# 벡터 DB 저장 폴더
+vector_store/
